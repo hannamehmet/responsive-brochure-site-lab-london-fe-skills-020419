@@ -1,0 +1,172 @@
+* {
+  font-family: Sans-Serif;
+}
+
+header {
+  background-color: white;
+  height:100px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+main {
+  background-color: #0000A0;
+  padding: 30px;
+  border: solid;
+  border-color: black;
+}
+
+
+aside {
+  float:right;
+  height: 1000px;
+  background-color: red;
+  padding-top:20px;
+  width:20%;
+  text-align: center;
+  border: solid;
+  border-color: black;
+}
+
+
+
+#content {
+  width:75%;
+  float:left;
+}
+
+.pub {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+.about { 
+  background-color: white;
+  height: auto;
+  align-items: center;
+  padding: 10px;
+  margin-bottom:30px;
+  overflow:auto;
+  border: solid;
+  border-color: black;
+}
+
+footer {
+  height:34px;
+  background-color: white;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.pubimg {
+  height:200px;
+  width:300px;
+}
+
+ .boxes {
+  background-color: white;
+  align-items: center;
+  height: auto;
+  padding: 10px 20px 20px 20px;
+  width:350px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display:inline-block;
+  border: solid;
+  border-color: black;
+}
+
+#logo {
+  height:220px;
+  width:180px;
+}
+
+iframe {
+  border:0;
+}
+
+@media only screen and (max-width:1190px) {
+  aside {
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size:3em;
+    margin-top:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+
+  }
+  
+  #content {
+   width:100%;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+  
+}
+  
+  .about { 
+  width:100%;
+  font-size:2em;
+}
+
+.boxes {
+ width:100%;
+ font-size:2em;
+ padding-bottom:40px;
+}
+
+header {
+  height:auto;
+  font-size:2em;
+}
+  
+footer {
+  font-size:3em;
+}
+
+#logo {
+  height:400px;
+  width:320px;
+}
+
+iframe {
+  height:400px;
+  width:400px;
+}
+
+.pubimg {
+  height:400px;
+  width:500px;
+}
+  
+}
+
+
+
+
+
